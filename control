@@ -1,0 +1,9 @@
+Package: com.hopeless.autoflex
+Name: autoflex
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: hopeless
+Author: hopeless
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
