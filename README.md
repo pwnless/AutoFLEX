@@ -27,3 +27,5 @@ OK, you have to fork this repo, modify the autoflex.plist file to include the ap
 
 ## Do I need to install other FLEX library?
 No, this deb is self contained, and compiled with all FLEX sources.
+
+More details at https://hope1ess.com/2024/10/09/enhancing-ios-debugging-creating-a-custom-flex-loader-to-any-3rd-party-ios-application/
