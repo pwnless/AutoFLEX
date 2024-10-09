@@ -15,6 +15,10 @@ And install ipa with Trollstore or sideloady or other app sideload things, you w
 ## What does it do?
 It basically inject beloved FLEX debugger into any iOS application.
 
+## How do I reopen FLEX window?
+- Lock and unlock your device with the app open
+- Long press status bar
+
 ## Wait, we already have FLEXList or FLEXing or blah....
 Yes. yes, but first they __do not have the newest FLEX__, second they cannot be used when you have no jailbreak.
 
