@@ -30,4 +30,4 @@ jobs:
         # Whether to enable Orion, which adds support for Swift tweaks
         orion: false
     - name: Run build script
-      run: ./build.sh
+      run: chmod +x ./build.sh && ./build.sh
