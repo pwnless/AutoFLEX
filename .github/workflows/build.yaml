@@ -14,8 +14,6 @@ jobs:
     runs-on: macos-13
     steps:
     - uses: actions/checkout@v4
-    - name: List available Xcode versions
-      run: ls /Applications | grep Xcode
     - name: Install Theos
       uses: Randomblock1/theos-action@v1.4
       with:
@@ -31,6 +29,14 @@ jobs:
         orion: false
     - name: Run build script
       run: chmod +x ./build.sh && ./build.sh
+    - name: Create GitHub Release
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      run: >-
+        gh release create
+        '${{ github.ref_name }}'
+        --repo '${{ github.repository }}'
+        --notes ""
     - name: Upload artifact signatures to GitHub Release
       env:
         GITHUB_TOKEN: ${{ github.token }}
