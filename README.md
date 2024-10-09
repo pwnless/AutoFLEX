@@ -24,3 +24,6 @@ Yes. yes, but first they __do not have the newest FLEX__, second they cannot be 
 
 ## Yes but I absolutley want to install this deb directly!
 OK, you have to fork this repo, modify the autoflex.plist file to include the app bundle id you wanna hook, and run the workflow to get your deb.
+
+## Do I need to install other FLEX library?
+No, this deb is self contained, and compiled with all FLEX sources.
