@@ -20,14 +20,14 @@ jobs:
       uses: Randomblock1/theos-action@v1.4
       with:
         # Where to install Theos
-        theos-dir: # optional, default is ${{ github.workspace }}/theos
+        theos-dir: ${{ github.workspace }}/theos
         # Where to clone Theos from (git URL)
-        theos-src: # optional, default is https://github.com/theos/theos
+        theos-src: https://github.com/theos/theos
         # Where to clone the iOS SDKs from (GitHub repository URL)
-        theos-sdks: # optional, default is https://github.com/theos/sdks
+        theos-sdks: https://github.com/theos/sdks
         # Which branch to clone from SDK repo
-        theos-sdks-branch: # optional, default is master
+        theos-sdks-branch: master
         # Whether to enable Orion, which adds support for Swift tweaks
-        orion: # optional, default is false
+        orion: false
     - name: Run build script
       run: ./build.sh
