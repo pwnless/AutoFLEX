@@ -22,7 +22,7 @@ It basically inject beloved FLEX debugger into any iOS application.
 ## Wait, we already have FLEXList or FLEXing or blah....
 Yes. yes, but first they __do not have the newest FLEX__, second they cannot be used when you have no jailbreak.
 
-## Yes but I absolutley want to install this deb directly!
+## Yes but I absolutely want to install this deb directly!
 OK, you have to fork this repo, modify the autoflex.plist file to include the app bundle id you wanna hook, and run the workflow to get your deb.
 
 ## Do I need to install other FLEX library?
